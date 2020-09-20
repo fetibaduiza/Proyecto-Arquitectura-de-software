@@ -1,5 +1,5 @@
 import { Component} from '@angular/core';
-import {InformacionService} from '../../services/informacion.service';
+import {InformacionService} from '@core/services/informacion.service';
 
 @Component({
   selector: 'app-integrantes-de-trabajo',

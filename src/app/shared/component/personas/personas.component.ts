@@ -1,6 +1,6 @@
 
 import { Component } from '@angular/core';
-import { PersonasService } from 'src/app/services/personas.service';
+import { PersonasService } from '@core/services/personas.service';
 
 @Component({
   selector: 'app-personas',

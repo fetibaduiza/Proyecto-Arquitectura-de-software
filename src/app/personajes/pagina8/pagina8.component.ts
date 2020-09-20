@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {  Personas8Service } from 'src/app/services/persona8.service';
+import {  Personas8Service } from '@core/services/persona8.service';
 
 @Component({
   selector: 'app-pagina8',

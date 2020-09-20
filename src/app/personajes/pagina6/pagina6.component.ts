@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Personas6Service } from 'src/app/services/personas6.service';
+import { Personas6Service } from '@core/services/personas6.service';
 
 @Component({
   selector: 'app-pagina6',

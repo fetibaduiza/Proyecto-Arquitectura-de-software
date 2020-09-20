@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { PlanetasService } from '../../services/planetas.service';
+import { PlanetasService } from '@core/services/planetas.service';
 
 
 

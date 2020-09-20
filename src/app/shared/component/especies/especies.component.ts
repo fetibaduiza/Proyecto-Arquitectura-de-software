@@ -1,5 +1,5 @@
 import { Component, } from '@angular/core';
-import { EspeciesService } from 'src/app/services/especies.service';
+import { EspeciesService } from '@core/services/especies.service';
 
 
 @Component({

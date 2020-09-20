@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavesEspacialesService } from '../../services/naves-espaciales.service';
+import { NavesEspacialesService } from '@core/services/naves-espaciales.service';
 
 @Component({
   selector: 'app-naves-espaciales',

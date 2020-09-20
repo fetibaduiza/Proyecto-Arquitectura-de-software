@@ -1,5 +1,5 @@
 import { Component} from '@angular/core';
-import {  Personas7Service } from 'src/app/services/personas7.service';
+import {  Personas7Service } from '@core/services/personas7.service';
 
 @Component({
   selector: 'app-pagina7',
