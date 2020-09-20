@@ -1,0 +1,31 @@
+
+
+{
+
+
+"universidad":"Politecnico Grancolombiano",
+ "carrera": "Ingenieria De Software",
+ "Pagina_web_institucion_educativa" : "https://www.poli.edu.co/content/estudiantes",
+
+            "emailinstitucionalintegrante1" : "crcortes9@poligran.edu.co",
+            "Nombreintegrante1" : "Cristhian Eduardo Cortes Martha",
+            "Codigoinstitucionalintegrante1":" 1811027924",
+
+
+           "emailinstitucionalintegrante2" : "fetibaduiza@poligran.edu.co",
+            "Nombreintegrante2" : "Fernando Tibaduiza Gutierrez ",
+            "Codigoinstitucionalintegrante2":"1921980049",
+
+
+            "emailinstitucionalintegrante3" : " canavarrete2@poligran.edu.co ",
+            "Nombreintegrante3" : " Carlos Andrés Navarrete Morales ",
+            "Codigoinstitucionalintegrante3":" 1711024458 ",
+
+
+            "emailinstitucionalintegrante4" : "jegomezh2@poligran.edu.co",
+            "Nombreintegrante4" : "Jeisson Alonso Gomez Herrera",
+            "Codigoinstitucionalintegrante4":" 1621023231",
+
+ "Paginas_a_cambiar" :"peliculas, planetas, personas, especies, naves_espaciales, vehiculos"
+
+}

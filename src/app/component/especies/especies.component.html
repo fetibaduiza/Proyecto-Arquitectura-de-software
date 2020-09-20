@@ -1,0 +1,54 @@
+
+<div class="fondo">
+      <div class="container">   
+      <h1 style="color: yellow;">Especies Star Wars</h1>
+      
+      <div *ngFor = "let especies of ListaDeEspecies">
+            <div class="grupo">
+            <div class="contenido1"> 
+            <h3 style="color: yellow;">Nombre : </h3>
+            <h3 style="color: white;"> {{especies.name}}  </h3>
+            </div>
+            <div class="contenido2">  
+            <h3 style="color: yellow;">Clasificacion :   </h3>
+            <h3 style="color: white;">{{especies.classification}}</h3>
+            </div>
+            <div class="contenido3"> 
+            <h3 style="color: yellow;">Designacion : </h3>  
+            <h3 style="color: white;">{{especies.designation}}</h3>
+            </div>
+            <div class="contenido4"> 
+            <h3 style="color: yellow;">Altura media :   </h3>
+                  <h3 style="color: white;">{{especies.average_height}}</h3>
+            </div>
+            <div class="contenido5"> 
+            <h3 style="color: yellow;">Color de Piel :      </h3>
+                  <h3 style="color: white;">{{especies.skin_colors}}</h3>
+            </div>
+            <div class="contenido6"> 
+            <h3 style="color: yellow;">Color de los ojos :  </h3>
+                  <h3 style="color: white;">{{especies.eye_colors}}</h3>
+            </div>
+            <div class="contenido7"> 
+            <h3 style="color: yellow;">Promedio de vida :</h3>
+                  <h3 style="color: white;">{{especies.average_lifespan}}</h3>
+            </div>
+            <div class="contenido8"> 
+            <h3 style="color: yellow;">Mundo Natal : </h3>
+            <h3 style="color: white;"> {{especies.homeworld}}</h3>
+            </div>
+            <div class="contenido9"> 
+            <h3 style="color: yellow;">Lenguaje :  </h3>
+            <h3 style="color: white;"> {{especies.language}}</h3>
+            </div>
+            <div class="contenido10"> 
+                  <h3 style="color: yellow;">Personas :  </h3>
+                  <h3 style="color: white;"> {{especies.people}}</h3>
+            </div>
+      </div><br>
+      </div>
+      </div>
+      </div>
+      
+      
+      

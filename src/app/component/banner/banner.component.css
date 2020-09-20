@@ -1,0 +1,43 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+.banner{
+  background-image: url("https://lumiere-a.akamaihd.net/v1/images/eu_sws-9-the-rise-of-skywalker_hero_r_eecc4b7a.jpeg?region=0,0,3200,1336&width=1536") ;
+  overflow: hidden;
+  height: 90vh;
+  background-repeat: no-repeat;
+
+
+}
+
+
+
+h1 {
+  width: 480px;
+  text-align: center;
+  color: black;
+  top: 100px;
+  position: static;
+  margin-left: 35px;
+  font-family:fantasy;
+  margin-top: 40vh;
+  font-size: 42px;
+
+
+}
+
+span{
+  color:rgba(223, 228, 178, 0.959);
+
+}
+
+@media screen and (max-width: 500px) {
+  h1{
+  display:none;
+  }
+  }
+
+

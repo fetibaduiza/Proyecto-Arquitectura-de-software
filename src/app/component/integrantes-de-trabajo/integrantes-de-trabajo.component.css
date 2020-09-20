@@ -1,0 +1,48 @@
+.fondo1{
+  background-image: url("https://www.xtrafondos.com/wallpapers/star-wars-logo-3654.jpg") ;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  background-position: bottom;
+
+}
+
+.nombres{
+  color: white;
+  padding-left: 100px;
+  margin-top: 150px;
+  position: relative;
+}
+.codigos{
+  color:white;
+  padding-left: 550px;
+  margin-top: -150px;
+  position: relative;
+
+}
+
+.correos{
+  color: white;
+  padding-left: 950px;
+  margin-top: -150px;
+  position: relative;
+}
+
+h5{
+  text-align: center;
+  color: white;
+  margin-top: 140px;
+  font-size: 20px;
+}
+
+h6{
+  text-align: center;
+  color: white;
+  margin-top: -30px;
+  font-size: 20px;
+}
+
+.color1{
+
+  color: yellow;
+}

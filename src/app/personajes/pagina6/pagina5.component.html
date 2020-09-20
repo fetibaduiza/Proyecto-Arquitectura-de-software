@@ -1,0 +1,50 @@
+
+<div class="fondo">
+  <div class="container">
+  <h1 style="color: yellow;">Personajes Star Wars</h1>
+  <button routerLink="/pagina5">ATRAS</button>
+  <button routerLink="/pagina7">SIGUIENTE</button>
+  <div *ngFor = "let Personas of ListaDePersonas5">
+        <div class="grupo">
+        <div class="contenido1">
+        <h3 style="color: yellow;">Nombre : </h3>
+        <h3 style="color: white;"> {{Personas.name}}  </h3>
+        </div>
+        <div class="contenido2">
+        <h3 style="color: yellow;">Peso :   </h3>
+        <h3 style="color: white;">{{Personas.height}}</h3>
+        </div>
+        <div class="contenido3">
+        <h3 style="color: yellow;">Masa : </h3>
+        <h3 style="color: white;">{{Personas.mass}}</h3>
+        </div>
+        <div class="contenido4">
+        <h3 style="color: yellow;">Color de Cabello :   </h3>
+              <h3 style="color: white;">{{Personas.hair_color}}</h3>
+        </div>
+        <div class="contenido5">
+        <h3 style="color: yellow;">Color de Piel :      </h3>
+              <h3 style="color: white;">{{Personas.skin_color}}</h3>
+        </div>
+        <div class="contenido6">
+        <h3 style="color: yellow;">Color de los ojos :  </h3>
+              <h3 style="color: white;">{{Personas.eye_color}}</h3>
+        </div>
+        <div class="contenido7">
+        <h3 style="color: yellow;">Fecha de nacimiento :</h3>
+              <h3 style="color: white;">{{Personas.birth_year}}</h3>
+        </div>
+        <div class="contenido8">
+        <h3 style="color: yellow;">Genero : </h3>
+        <h3 style="color: white;"> {{Personas.gender}}</h3>
+        </div>
+        <div class="contenido9">
+        <h3 style="color: yellow;">Hogar :  </h3>
+        <h3 style="color: white;"> {{Personas.homeworld}}</h3>
+        </div>
+  </div><br>
+  </div>
+  </div>
+  <button routerLink="/personas">ATRAS</button>
+  </div>
+

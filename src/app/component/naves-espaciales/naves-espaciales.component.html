@@ -1,0 +1,62 @@
+
+<div class="fondo">
+      <div class="container">   
+      <h1 style="color: yellow;">Naves espaciales Star Wars</h1>
+      
+      <div *ngFor = "let naves of ListaDeNaves">
+            <div class="grupo">
+            <div class="contenido1"> 
+            <h3 style="color: yellow;">Nombre : </h3>
+            <h3 style="color: white;"> {{naves.name}}  </h3>
+            </div>
+            <div class="contenido2">  
+            <h3 style="color: yellow;">Modelo :   </h3>
+            <h3 style="color: white;">{{naves.model}}</h3>
+            </div>
+            <div class="contenido3"> 
+            <h3 style="color: yellow;">Manofactura : </h3>  
+            <h3 style="color: white;">{{naves.manofacture}}</h3>
+            </div>
+            <div class="contenido4"> 
+            <h3 style="color: yellow;">Valor en creditos:   </h3>
+                  <h3 style="color: white;">{{naves.cost_in_credits}}</h3>
+            </div>
+            <div class="contenido5"> 
+            <h3 style="color: yellow;">Longitud :      </h3>
+                  <h3 style="color: white;">{{naves.length}}</h3>
+            </div>
+            <div class="contenido6"> 
+            <h3 style="color: yellow;">Personal :  </h3>
+                  <h3 style="color: white;">{{naves.crew}}</h3>
+            </div>
+            <div class="contenido7"> 
+            <h3 style="color: yellow;">Pasajeros :</h3>
+                  <h3 style="color: white;">{{naves.passengers}}</h3>
+            </div>
+            <div class="contenido8"> 
+            <h3 style="color: yellow;">Capacidad de carga : </h3>
+            <h3 style="color: white;"> {{naves.cargo_capacity}}</h3>
+            </div>
+            <div class="contenido9"> 
+            <h3 style="color: yellow;">Consumibles :  </h3>
+            <h3 style="color: white;"> {{naves.consumables}}</h3>
+            </div>
+            <div class="contenido10"> 
+            <h3 style="color: yellow;">HiperVelocidad :  </h3>
+            <h3 style="color: white;"> {{naves.hyperdrive_rating}}</h3>
+            </div>
+            <div class="contenido11"> 
+            <h3 style="color: yellow;">MGLT :  </h3>
+            <h3 style="color: white;"> {{naves.mglt}}</h3>
+            </div>
+            <div class="contenido12"> 
+            <h3 style="color: yellow;">Clase de la nave :  </h3>
+            <h3 style="color: white;"> {{naves.starship_class}}</h3>
+            </div>
+      </div><br>
+      </div>
+      </div>
+      </div>
+      
+      
+      

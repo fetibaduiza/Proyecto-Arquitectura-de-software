@@ -1,0 +1,63 @@
+<div class="fondo">
+  <div class="container">
+  <h1 style="color: yellow;">Personajes Star Wars</h1>
+
+  <div class="pos1">
+      <button class="boton" routerLink="/personas">ATRÁS</button>
+  </div>
+  <div class="pos2">
+   <button class="boton" routerLink="/pagina3">SIGUIENTE</button>
+  </div>
+  <br>
+  <br>
+  <div *ngFor = "let Personas of ListaDePersonas2">
+        <div class="grupo">
+        <div class="contenido1">
+        <h3 style="color: yellow;">Nombre : </h3>
+        <h3 style="color: white;"> {{Personas.name}}  </h3>
+        </div>
+        <div class="contenido2">
+        <h3 style="color: yellow;">Peso :   </h3>
+        <h3 style="color: white;">{{Personas.height}}</h3>
+        </div>
+        <div class="contenido3">
+        <h3 style="color: yellow;">Masa : </h3>
+        <h3 style="color: white;">{{Personas.mass}}</h3>
+        </div>
+        <div class="contenido4">
+        <h3 style="color: yellow;">Color de Cabello :   </h3>
+              <h3 style="color: white;">{{Personas.hair_color}}</h3>
+        </div>
+        <div class="contenido5">
+        <h3 style="color: yellow;">Color de Piel :      </h3>
+              <h3 style="color: white;">{{Personas.skin_color}}</h3>
+        </div>
+        <div class="contenido6">
+        <h3 style="color: yellow;">Color de los ojos :  </h3>
+              <h3 style="color: white;">{{Personas.eye_color}}</h3>
+        </div>
+        <div class="contenido7">
+        <h3 style="color: yellow;">Fecha de nacimiento :</h3>
+              <h3 style="color: white;">{{Personas.birth_year}}</h3>
+        </div>
+        <div class="contenido8">
+        <h3 style="color: yellow;">Genero : </h3>
+        <h3 style="color: white;"> {{Personas.gender}}</h3>
+        </div>
+        <div class="contenido9">
+        <h3 style="color: yellow;">Hogar :  </h3>
+        <h3 style="color: white;"> {{Personas.homeworld}}</h3>
+        </div>
+  </div><br>
+  </div>
+  <div class="pos1">
+      <button class="boton" routerLink="/personas">ATRÁS</button>
+  </div>
+  <div class="pos2">
+   <button class="boton" routerLink="/pagina3">SIGUIENTE</button>
+  </div>
+  <br><br>
+  </div>
+  </div>
+  
+

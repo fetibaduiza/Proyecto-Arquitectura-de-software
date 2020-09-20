@@ -1,0 +1,48 @@
+.fondo{
+  background-image: url("https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png") ;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+}
+
+.grupo{
+  border: 5px solid white;
+}
+.contenido1{
+  margin: 10px;
+  display: flex;
+}
+
+.contenido2{
+  margin: 10px;
+  display: flex;
+}
+
+.contenido3{
+  margin: 10px;
+  display: flex;
+}
+.contenido4{
+  margin: 10px;
+  display: flex;
+}
+.contenido5{
+  margin: 10px;
+  display: flex;
+}
+.contenido6{
+  margin: 10px;
+  display: flex;
+}
+.contenido7{
+  margin: 10px;
+  display: flex;
+}
+.contenido8{
+  margin: 10px;
+  display: flex;
+}
+.contenido9{
+  margin: 10px;
+  display: flex;
+}
