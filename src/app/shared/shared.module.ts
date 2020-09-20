@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import {RouterModule} from '@angular/router';
 
+import {MaterialModule} from '@material/material.module';
 
 import { HeaderComponent } from './component/header/header.component';
 import { BannerComponent } from './component/banner/banner.component';
@@ -29,6 +30,7 @@ import { FooterComponent } from './component/footer/footer.component';
     VehiculosComponent,
     IntegrantesDeTrabajoComponent,
     FooterComponent,
+    MaterialModule,
   ],
   exports: [
     HeaderComponent,
@@ -42,6 +44,7 @@ import { FooterComponent } from './component/footer/footer.component';
     VehiculosComponent,
     IntegrantesDeTrabajoComponent,
     FooterComponent,
+    MaterialModule,
   ],
   imports: [
     CommonModule,

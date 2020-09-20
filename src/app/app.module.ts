@@ -1,12 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import {SharedModule} from '@shared/shared.module';
 import {CoreModule} from '@core/core.module';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LayoutComponent } from '@layout/layout.component';
 
 import { Pagina2Component } from './personajes/pagina2/pagina2.component';
 import { Pagina3Component } from './personajes/pagina3/pagina3.component';
@@ -18,16 +19,10 @@ import { Pagina8Component } from './personajes/pagina8/pagina8.component';
 import { Pagina9Component } from './personajes/pagina9/pagina9.component';
 
 
-
-
-
-
-
-
 @NgModule({
   declarations: [
     AppComponent,
-
+    LayoutComponent,
     Pagina2Component,
     Pagina3Component,
     Pagina4Component,
@@ -36,6 +31,7 @@ import { Pagina9Component } from './personajes/pagina9/pagina9.component';
     Pagina7Component,
     Pagina8Component,
     Pagina9Component,
+    LayoutComponent,
   ],
   imports: [
     BrowserModule,
@@ -43,6 +39,7 @@ import { Pagina9Component } from './personajes/pagina9/pagina9.component';
     AppRoutingModule,
     SharedModule,
     CoreModule,
+    BrowserAnimationsModule
   ],
   providers: [
 
