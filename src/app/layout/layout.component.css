@@ -10,3 +10,7 @@
   border-radius: 0;
   background-color: #212121;
 }
+
+.container-fluid {
+  height: 90%;
+}
