@@ -1,86 +1,25 @@
- <header>
+<div>
+  <mat-toolbar color="primary">
+    <div fxShow="true" fxHide.gt-sm="true">
+      <button mat-icon-button (click)="onToggleSidenav()">
+        <mat-icon>menu</mat-icon>
+      </button>
+    </div>
 
-   <input type="checkbox" id="btn-menu">
-   <label for="btn-menu"><img src="https://pngimage.net/wp-content/uploads/2018/06/responsive-menu-icon-png-.png" alt=""></label>
+    <a class="companyName" routerLink="/">
+      <span>StarWars</span>
+    </a>
+    <span class="example-spacer"></span>
+    <div fxShow="true" fxHide.lt-md="true">
+      <a mat-button routerLink="historia">HISTORIA</a>
+      <a mat-button routerLink ="peliculas">PELICULAS</a>
+      <a mat-button routerLink ="personas">PERSONAS</a>
 
-
-
-
-
-      <nav class="menu">
-          <ul>
-
-            <li><a routerLink="/">INICIO</a></li>
-
-            <li><a routerLink="historia">HISTORIA</a></li>
-            <li><a routerLink ="peliculas">PELICULAS</a></li>
-            <li><a routerLink ="personas">PERSONAS</a></li>
-
-            <li><a routerLink ="planetas">PLANETAS</a></li>
-            <li><a routerLink ="especies">ESPECIES</a></li>
-            <li><a routerLink ="naves-espaciales">NAVES ESPACIALES</a></li>
-            <li><a routerLink ="vehiculos">VEHICULOS</a></li>
-            <li><a routerLink = "integrantes-de-trabajo"> &nbsp;&nbsp;&nbsp;GRUPO DE <br>INTEGRANTES</a></li>
-          </ul>
-      </nav>
-
-</header>
-
-
-
-
-<!--
----------------------Header hecho con bootstrap.
-
-<header>
-
-<input type="checkbox" id="btn-menu"/>
-<label for="btn-menu"><img src="https://pngimage.net/wp-content/uploads/2018/06/responsive-menu-icon-png-.png" alt=""></label>
-
-
-<nav ngbNav #nav="ngbNav" class="nav-tabs" class="menu">
-  <ng-container ngbNavItem>
-    <a routerLink="/" ngbNavLink>INICIO</a>
-    <ng-template ngbNavContent>
-    </ng-template>
-  </ng-container>
-  <ng-container ngbNavItem>
-    <a routerLink ="historia" ngbNavLink >HISTORIA</a>
-    <ng-template ngbNavContent>
-    </ng-template>
-  </ng-container>
-  <ng-container ngbNavItem>
-    <a routerLink ="personas" ngbNavLink>PERSONAS</a>
-    <ng-template ngbNavContent>
-    </ng-template>
-  </ng-container>
-  <ng-container ngbNavItem>
-    <a routerLink ="planetas" ngbNavLink>PLANETAS</a>
-    <ng-template ngbNavContent>
-    </ng-template>
-  </ng-container>
-  <ng-container ngbNavItem>
-    <a routerLink ="especies" ngbNavLink>ESPECIES</a>
-    <ng-template ngbNavContent>
-    </ng-template>
-  </ng-container>
-  <ng-container ngbNavItem>
-    <a routerLink ="naves-espaciales" ngbNavLink>NAVES ESPACIALES</a>
-    <ng-template ngbNavContent>
-    </ng-template>
-  </ng-container>
-  <ng-container ngbNavItem>
-    <a routerLink ="vehiculos" ngbNavLink>VEHICULOS</a>
-    <ng-template ngbNavContent>
-    </ng-template>
-  </ng-container>
-  <ng-container ngbNavItem>
-    <a routerLink = "integrantes-de-trabajo" ngbNavLink >INTEGRANTES DE TRABAJO</a>
-    <ng-template ngbNavContent>
-    </ng-template>
-  </ng-container>
-</nav>
-<div [ngbNavOutlet]="nav" class="mt-2"></div>
-
-
-</header>-->
+      <a mat-button routerLink ="planetas">PLANETAS</a>
+      <a mat-button routerLink ="especies">ESPECIES</a>
+      <a mat-button routerLink ="naves-espaciales">NAVES ESPACIALES</a>
+      <a mat-button routerLink ="vehiculos">VEHICULOS</a>
+      <a mat-button routerLink = "integrantes-de-trabajo">INTEGRANTES</a>
+    </div>
+  </mat-toolbar>
+</div>

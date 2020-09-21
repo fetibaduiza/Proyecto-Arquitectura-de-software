@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import {RouterModule} from '@angular/router';
 
 import {MaterialModule} from '@material/material.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { HeaderComponent } from './component/header/header.component';
 import { BannerComponent } from './component/banner/banner.component';
@@ -44,11 +45,13 @@ import { FooterComponent } from './component/footer/footer.component';
     IntegrantesDeTrabajoComponent,
     FooterComponent,
     MaterialModule,
+    FlexLayoutModule,
   ],
   imports: [
     CommonModule,
     RouterModule,
     MaterialModule,
+    FlexLayoutModule,
   ]
 })
 export class SharedModule { }

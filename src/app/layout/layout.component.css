@@ -1,0 +1,12 @@
+.mat-sidenav-content {
+  background-image: url(https://wallpaperaccess.com/full/695413.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mat-card {
+  margin: 0 10%;
+  border-radius: 0;
+  background-color: #212121;
+}

@@ -1,5 +1,23 @@
-<app-header></app-header>
-<div class="container-fluid">
-  <router-outlet></router-outlet>
-</div>
-<app-footer></app-footer>
+<mat-sidenav-container fxFlexFill class="example-container">
+
+  <mat-sidenav #sidenav role="navigation" color="primary" #sidenav fxLayout="column" mode="over"  opened="false" fxHide.gt-sm="true">
+    <div fxLayout="column">
+      <a mat-button routerLink="historia" (click)="sidenav.toggle()">HISTORIA</a>
+      <a mat-button routerLink ="peliculas" (click)="sidenav.toggle()">PELICULAS</a>
+      <a mat-button routerLink ="personas" (click)="sidenav.toggle()">PERSONAS</a>
+
+      <a mat-button routerLink ="planetas" (click)="sidenav.toggle()">PLANETAS</a>
+      <a mat-button routerLink ="especies" (click)="sidenav.toggle()">ESPECIES</a>
+      <a mat-button routerLink ="naves-espaciales" (click)="sidenav.toggle()">NAVES ESPACIALES</a>
+      <a mat-button routerLink ="vehiculos" (click)="sidenav.toggle()">VEHICULOS</a>
+      <a mat-button routerLink = "integrantes-de-trabajo" (click)="sidenav.toggle()">INTEGRANTES</a>
+    </div>
+  </mat-sidenav>
+  <mat-sidenav-content fxFlexFill>
+    <app-header (sidenavToggle)="sidenav.toggle()"></app-header>
+    <div class="container-fluid">
+      <mat-card><router-outlet></router-outlet></mat-card>
+    </div>
+    <app-footer></app-footer>
+  </mat-sidenav-content>
+</mat-sidenav-container>
