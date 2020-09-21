@@ -31,7 +31,6 @@ import { Pagina9Component } from './personajes/pagina9/pagina9.component';
     Pagina7Component,
     Pagina8Component,
     Pagina9Component,
-    LayoutComponent,
   ],
   imports: [
     BrowserModule,

@@ -29,8 +29,7 @@ import { FooterComponent } from './component/footer/footer.component';
     NavesEspacialesComponent,
     VehiculosComponent,
     IntegrantesDeTrabajoComponent,
-    FooterComponent,
-    MaterialModule,
+    FooterComponent
   ],
   exports: [
     HeaderComponent,
@@ -49,6 +48,7 @@ import { FooterComponent } from './component/footer/footer.component';
   imports: [
     CommonModule,
     RouterModule,
+    MaterialModule,
   ]
 })
 export class SharedModule { }
